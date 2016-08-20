@@ -5,6 +5,7 @@ This script faciliates the addition and deletion of a domain to the local DNS se
 Python 2.x and dnspython (http://www.dnspython.org)
 
 # Usage
+```
 Usage:  ./sinkhole.py -z <all|whitelist|phishing|malware> [[-a|-r]<-d <domain>|-f <inputfile>>]|-l|-s <searchtring>|-F
         -z <rpz name> the zone name to use (all|whitelist|phishing|malware)
         -a [-d <domain>|-f <input file>] add domain(s) to zone file - existing domains will be overwritten
@@ -24,4 +25,4 @@ Search for string softpedia in the malware zonefile
         ./sinkhole.py -z malware -s softpedia.com
 List all domains in the phishing zonefile
         ./sinkhole.py -lz phishing
-
+```
