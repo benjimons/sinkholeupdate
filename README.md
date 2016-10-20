@@ -1,8 +1,14 @@
 # sinkholeupdate
 This script faciliates the addition and deletion of a domain to the local DNS server that zone transfers into a remote DNS server
 
+https://dnsrpz.info/
+
+What is RPZ
+Domain Name Service Response Policy Zones (DNS RPZ) is a method that allows a nameserver administrator to overlay custom information on top of the global DNS to provide alternate responses to queries. It is currently implemented in the ISC BIND nameserver (9.8 or later). Another generic name for the DNS RPZ functionality is "DNS firewall".
+
 # Requirements 
 Python 2.x and dnspython (http://www.dnspython.org)
+Bind 9.8 or later
 
 # Usage
 ```
