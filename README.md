@@ -9,6 +9,7 @@ Domain Name Service Response Policy Zones (DNS RPZ) is a method that allows a na
 # Requirements 
 Python 2.x and dnspython (http://www.dnspython.org)
 Bind 9.8 or later
+alexa.dat file (Plain text file of rows of domains to whitelist/force halt if attempted to be added)
 
 # Usage
 ```
